@@ -1,0 +1,38 @@
+html {
+  background-image: url("https://wallpaperaccess.com/full/1489353.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+label,
+input,
+button,
+li {
+  text-align: center;
+  color: #3a6ac8;
+  font-size: 3rem;
+}
+input {
+  color: #575c68 !important;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.btnsize {
+  height: max-content;
+  width: max-content;
+}
